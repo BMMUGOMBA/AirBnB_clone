@@ -1,28 +1,5 @@
 0x00. AirBnB clone - The console
 
-Batsirayi Mugomba and Blessings Moyo
-
-To start the command interpreter: 
-
- interactive mode: $ ./console.py 
-
- # AirBnB_clone
-ALX Project
-# AirBnB_clone
-ALX Team Project - AirBnB Clone
-
-# AirBnB Clone - The console
-the console for airbnb project. Create a command interpreter that can modify or delete the database The users like the administrator of the app Airbnb clone has the posibility of the manipulate objects and data of the application, this objects are:
-
-* Users
-* Places
-* States
-* Cities
-* Amenities
-* Reviews
-
-![image](https://user-images.githubusercontent.com/93772775/183030202-7fe98cea-20a5-4da6-9023-018752bdc405.png)
-
 # Requirements
 # Python Scripts
 * Allowed editors: vi, vim, emacs
@@ -107,5 +84,5 @@ EOF  help  quit
 (hbnb)
 $
 # AUTHORS
-Wakilat Adeola Olanrewaju & Tolulope Benjamin Alegbeleye
+Blessings Moyo and Batsirayi Mugomba
 
