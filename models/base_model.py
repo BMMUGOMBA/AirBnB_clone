@@ -6,6 +6,7 @@ from datetime import datetime
 import uuid
 from models import storage
 
+
 class BaseModel():
     """ Defines a attributes and methods for other classes """
     def __init__(self, *args, **kwargs):
@@ -41,4 +42,3 @@ class BaseModel():
         new_dict["created_at"] = self.created_at.isoformat()
         new_dict["updated_at"] = self.updated_at.isoformat()
         return new_dict
-
