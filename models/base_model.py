@@ -8,7 +8,7 @@ from models import storage
 
 
 class BaseModel():
-    """ Defines a attributes and methods for other classes """
+    """ Defines all common attributes/methods for other classes """
     def __init__(self, *args, **kwargs):
         """ Initializes the instances attributes """
         if kwargs:
@@ -26,7 +26,7 @@ class BaseModel():
             storage.new(self)
 
     def __str__(self):
-        """ Prints object """
+        """ Prints object in friendly format"""
         return "[{}] ({}) {}".format(self.__class__.__name__,
                                      self.id, self.__dict__)
 
